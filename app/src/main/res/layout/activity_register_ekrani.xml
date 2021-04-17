@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:padding="20dp"
+    tools:context=".loginEkrani">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Kayıt Oluştur"
+            android:textColor="@color/white"
+            android:textSize="30sp"></TextView>
+
+        <EditText
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="İsim"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/txt_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Soyisim"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/txt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/txt_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefon No"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="sifre"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/txt_password2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="sifre yeniden"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="(Opsiyonel)"
+            android:textColor="@color/white"></TextView>
+
+        <EditText
+            android:id="@+id/ref_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Referans kullanıcı id"
+            android:textColorHint="@color/white"></EditText>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Kayıt Ol"
+            app:backgroundTint="#FF5722"/>
+
+        <TextView
+            android:id="@+id/txt_ztnuye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="110dp"
+            android:text="Zaten üyeyim"
+            android:textColor="@color/black"
+            android:textSize="16sp"></TextView>
+    </LinearLayout>
+
+</RelativeLayout>
+

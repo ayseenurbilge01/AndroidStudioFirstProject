@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ilkuygulama</string>
+    <string name="CREATE_NEW_ACCOUNT">YENİ HESAP OLUŞTUR</string>
+    <string name="I_HAVE_ACCOUNT">HESABIM VAR</string>
+    <string name="title_activity_ana_ekran">MainActivity</string>
+    <string name="title_home">Anasayfa</string>
+    <string name="title_dashboard">Bakiye Yükle</string>
+    <string name="title_notifications">Profile</string>
+</resources>

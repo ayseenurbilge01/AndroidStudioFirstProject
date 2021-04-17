@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1046943192356",
+    "firebase_url": "https://ilkuygulama-a014b-default-rtdb.firebaseio.com",
+    "project_id": "ilkuygulama-a014b",
+    "storage_bucket": "ilkuygulama-a014b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046943192356:android:3c3bf08d0cac8a69e5cfb1",
+        "android_client_info": {
+          "package_name": "com.example.ilkuygulama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046943192356-oh1fqjr2qgdctga37p1mrdh7tubr0hc8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ilkuygulama",
+            "certificate_hash": "4a37c423c54b76b96163d61d55edc871ce1b65ea"
+          }
+        },
+        {
+          "client_id": "1046943192356-ohho6r5hpmk9fcchd32do00ljettkugf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGAqvx_IIMLsMYgPfwdLQis-ujoo0PU5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046943192356-ohho6r5hpmk9fcchd32do00ljettkugf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
